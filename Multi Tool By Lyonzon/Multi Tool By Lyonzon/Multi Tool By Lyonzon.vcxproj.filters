@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Functions">
+      <UniqueIdentifier>{8203018b-e2f1-4be4-adb3-98867a76ed30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Functions\Cheats">
+      <UniqueIdentifier>{2fbc30eb-af47-4b1d-9119-7d2e966ee78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Functions\Calculators">
+      <UniqueIdentifier>{1b3a524f-ea6d-471c-a4fc-92558e076d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main File">
+      <UniqueIdentifier>{e32767b6-8ac2-4e1b-8ccf-535f71cb6d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Daddy Of Project">
+      <UniqueIdentifier>{f6d06424-a71b-40b4-8e66-6fe82f03a974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{73788c80-c01c-4da2-8b2a-d915c2777fa2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Main File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Resource Files\Daddy Of Project</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatsI.h">
+      <Filter>Header Files\Functions\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcD.h">
+      <Filter>Header Files\Functions\Calculators</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files\Functions\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files\Functions\Cheats</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
